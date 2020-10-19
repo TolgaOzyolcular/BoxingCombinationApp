@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<body>
+
+<h1>Boxing Combination Generator</h1>
+
+<div ng-app="">
+
+    <p>1 => Jab<br>
+       2 => Cross<br>
+       3 => Slip<br>
+       4 => Right Hook<br>
+       5 => Left Hook<br>
+       6 => Body</p>
+
+    <p>Which SKILL would you like to work on? <input type="text" id="skill" name="skill"></p>
+
+    <p>How long do you have? (Minutes) <input type="text" id="time" name="time"></p>
+
+    <button type="button" onclick="myFunction()">Submit</button>
+
+    <p>Rules: 3 minutes per combination and 1 minute break in between</p>
+
+    <p id="combinations">Combinations will be displayed here!</p>
+
+    <script src="MainScript.js"></script>
+
+</body>
+</html>
